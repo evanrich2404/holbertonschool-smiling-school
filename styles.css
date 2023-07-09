@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+body,
+header,
+h1,
+p,
+img,
+span,
+button {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/pic_1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Center align elements */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-icons,
+.right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.right-icons img {
+    margin-left: 10px;
+}
+
+.header-tag {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.word {
+    margin: 0 5px;
+}
+
+.header-button {
+    margin-top: 10px;
+}
+
+.hero-piece {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.column {
+    width: 25%;
+    text-align: center;
+}
+
+.hero-header {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.hero-text {
+    margin-top: 5px;
+    font-size: 14px;
+}
