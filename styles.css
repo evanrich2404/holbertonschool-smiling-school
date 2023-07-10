@@ -1,7 +1,8 @@
 @import url("./holberton_school-icon/style.css");
 
 :root {
-    --font-family: "Source Sans Pro", serif;
+    --sans-font: "Source Sans Pro", serif;
+    --coiny-font: "Coiny", sans-serif;
     --color-dark: #071629;
     --color-white: #ffffff;
     --color-purp: #C271FF;
@@ -9,7 +10,11 @@
 }
 
 body {
-    font-family: var(--font-family) !important;
+    font-family: var(--sans-font) !important;
+}
+
+.coiny-font {
+    font-family: var(--coiny-font) !important;
 }
 
 .imgbg1 {
