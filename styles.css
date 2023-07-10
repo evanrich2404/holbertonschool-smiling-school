@@ -30,8 +30,26 @@ body {
     margin: 0;
 }
 
+.imgbg3 {
+    background-image: url('./images/pic_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: var(--color-dark);
+    margin: 0;
+}
+
+.quote3 {
+    font-family: 'Coiny', sans-serif !important;
+}
+
 li a:hover, li a:focus {
     color: var(--color-purp) !important;
+}
+
+.active-link {
+    color: var(--color-purp) !important;
+    border-bottom: 2px solid var(--color-white);
 }
 
 .bigify {
