@@ -190,3 +190,8 @@ header {
 .form-control:focus {
     background-color: var(--color-purp-light) !important;
 }
+
+.playbutton {
+    width: 35%;
+    padding-top: 15%
+}
