@@ -89,6 +89,13 @@ header {
         background-position: center top;
         background-size: 100vw;
     }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
