@@ -21,6 +21,15 @@ body {
     margin: 0;
 }
 
+.imgbg2 {
+    background-image: url('./images/pic_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: var(--color-dark);
+    margin: 0;
+}
+
 li a:hover, li a:focus {
     color: var(--color-purp) !important;
 }
