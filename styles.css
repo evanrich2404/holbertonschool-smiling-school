@@ -78,6 +78,29 @@ li a:hover, li a:focus {
     font-size: 2rem;
 }
 
+.dropdown-menu {
+    min-width: 100%;
+}
+
+.dropdown-item:hover {
+    color: var(--color-purp) !important;
+    background-color: var(--color-white);
+}
+
+.dropdown-toggle {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: 0;
+    border-bottom: 1px solid var(--color-purp-light);
+    background-color: var(--color-purp-light) !important;
+}
+
+::placeholder {
+    color: var(--color-white) !important;
+    opacity: .5 !important;
+}
+
 .text-purp {
     color: var(--color-purp);
 }
@@ -141,5 +164,29 @@ header {
     .imgbg1 {
         background-size: auto;
     }
+}
 
+.rounded-top-left {
+    border-top-left-radius: .25rem;
+}
+
+.form-control {
+    border-top-right-radius: .5;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 1px var(--color-purp-light);
+    background-color: var(--color-purp-light) !important;
+}
+
+.form-control:hover {
+    background-color: var(--color-purp-light);
+}
+
+.form-control:active {
+    background-color: var(--color-purp-light) !important;
+}
+
+.form-control:focus {
+    background-color: var(--color-purp-light) !important;
 }
