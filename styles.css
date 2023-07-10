@@ -54,6 +54,14 @@ li a:hover, li a:focus {
     background-color: var(--color-purp-light);
 }
 
+.bg-black {
+    background-color: var(--color-dark);
+}
+
+.bg-white {
+    background-color: var(--color-white);
+}
+
 header {
     text-align: center;
     margin-top: 50px;
