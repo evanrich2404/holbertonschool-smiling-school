@@ -34,6 +34,10 @@ li a:hover, li a:focus {
     color: var(--color-purp) !important;
 }
 
+.bigify {
+    font-size: 1.75rem;
+}
+
 .btn {
     background-color: var(--color-purp) !important;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
